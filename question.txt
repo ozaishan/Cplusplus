@@ -33,4 +33,18 @@ time and also explain trade-off between them.
     here value of a is assigned to value of b . Its because the associativity of the 
      = operator is from right to left...
 
-5. Pointer : Pointer is a variable tthat stores the 
+5. Pointer : Pointer is a variable tthat stores the address of another variable 
+where reference is the variable that is an alias for another variable.
+
+
+6. pass by value and pass by reference 
+ pass by value :  in this a copy of variable is created  and changes are not  reflected in 
+ original memory address
+ pass by reference: in this instead of copying the variable the adress of original variable is 
+ passed  if changes are made in original address  it will affect the original memory address.
+
+
+7. Namespaces are used to organize code into logical groups and to prevent name collisions that
+ can occur especially when your code base includes multiple libraries.
+
+
