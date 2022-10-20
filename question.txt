@@ -1,0 +1,36 @@
+Explain how C++ programs work.
+2. A C++ program that compiles in one compiler may not compile in another compiler.
+Why?
+3. A C++ program that compiles in one version of a compiler may not compile in another
+version of the same compiler. Why?
+4. What do you understand by operator precedence and associativity?
+5. What are the differences between pointers and references?
+6. What are the differences between pass by value and pass by reference?
+7. Explain the purpose of namespaces.
+8. Compare inline function and normal function on the basis of memory usage, execution
+time and also explain trade-off between them.
+9. Differentiate between pointer variable and reference variable?
+
+// answers
+1 . C++ program works on following stepsss 
+  -> source code
+  -> preprocessing 
+  -> compilation and assembling
+  ->linking
+  -> executable file 
+
+2 & 3  A c++ program that compiles in one compiler does not work in another
+       version or another compiler because its environment variable path will
+       be changed 
+
+4 . operator precedence in c++  determines which operator is executed first if there
+    is one or more operators in a single expression
+    (){} --------> highest precedence
+    * / % --------> higher precedence
+    + - ----------> lower precedence
+    associativity :  The associativity of operators determines the direction in which
+    an expression is evaluated. For example, b = a;
+    here value of a is assigned to value of b . Its because the associativity of the 
+     = operator is from right to left...
+
+5. Pointer : Pointer is a variable tthat stores the 
