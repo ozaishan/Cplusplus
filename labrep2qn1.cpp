@@ -6,7 +6,8 @@ using namespace std;
  {
  private:
     string name;
-    long books[];
+    long books[3];
+    int book=0;
  public:
     void setupname();
     void getname();
@@ -25,20 +26,23 @@ using namespace std;
     cout << " your name is : \n" << name << "\n";
  }
   
-void student::issuebooks()
+void student::issuebooks(long boook)
 {
+
 cout << " Enter your book number : \n";
-for (int i=0 ; i<5; i++){
-cin >> books[i];
+books[book]=boook;
+book++;
+getissuedbooks();
 }
-}
+
 void student::getissuedbooks()
 {
-cout << " Your books that are stored are : \n";
-for (int i = 0; i < 5; i++)
+for (int i = 0; i < book; i++)
 {
-cout >> books[i];
+   cout << books[book]<<endl;
 }
+
+
 
 }
 int main()
@@ -46,7 +50,7 @@ int main()
     student stud;
     stud.setupname();
     stud.getname();
-    stud.issuebooks();
-    stud.getissuedbooks();
+    stud.issuebooks(2003);
+   
     return 0;
 }
